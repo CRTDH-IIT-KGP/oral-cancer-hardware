@@ -7,7 +7,8 @@ sudo raspi-config
 
 Install the 'qt5-dev-tools' package, which allows compiling of QT applications.
 ```
-sudo apt-get install qt4-dev-tools
+sudo apt-get install qt5-default qttools5-dev qttools5-dev-tools
+
 ```
 
 To build (will build any SDK dependencies as well, cd to the *LeptonModule/sofware/raspberrypi_video* folder, then run:
